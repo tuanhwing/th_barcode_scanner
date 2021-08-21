@@ -20,39 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5dea1e-71b5-40b7-a0e3-3778570ccc44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ios/Classes/Common/THCommon.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/Helper/EventHandler.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/Helper/Logger.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/THBarcodeScanner.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/View/BarcodeScannerViewFactory.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/View/ScannerPreview.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Frameworks/MTBBarcodeScanner.framework/Headers/MTBBarcodeScanner.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Frameworks/MTBBarcodeScanner.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Frameworks/MTBBarcodeScanner.framework/MTBBarcodeScanner" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Frameworks/MTBBarcodeScanner.framework/Modules/module.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/common/common.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/views/barcode_scanner_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/views/views.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/libs/com.google.zxing-core-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/libs/me.dm7.barcodescanner-core-1.9.13.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/libs/me.dm7.barcodescanner-zxing-1.9.13.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/vn/th_barcode_scanner/THBarcodeScanner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/vn/th_barcode_scanner/common/Common.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/vn/th_barcode_scanner/helper/EventHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/vn/th_barcode_scanner/views/BarcodeScannerViewFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/vn/th_barcode_scanner/views/ScannerPreview.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftThBarcodeScannerPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftThBarcodeScannerPlugin.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/th_barcode_scanner.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/th_barcode_scanner.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/th_barcode_scanner.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/th_barcode_scanner.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/th_barcode_scanner_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/th_barcode_scanner_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/th_barcode_scanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/th_barcode_scanner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/vn/th_barcode_scanner/ThBarcodeScannerPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/vn/th_barcode_scanner/ThBarcodeScannerPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R58R376MT4J]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -66,11 +53,12 @@
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/libs" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/libs" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/ios/Frameworks" />
     </key>
@@ -98,5 +86,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1629551083420">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1629551083420" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1629551083419">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1629551083419" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1629551083419">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1629551083419" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1629551083419">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1629551083419" />
   </component>
 </project>
